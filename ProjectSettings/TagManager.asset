@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Spawn Point
+  - Room Template
+  - Room
+  - Enemy
+  - Props
+  - LVL Generator
+  - Boss
+  - Road
+  - END
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemy
+  - No Sombreable
+  - Room
+  - Hideable
+  - Obstacle
+  - Road
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Shadow sensible
+    uniqueID: 125553833
+    locked: 0
+  - name: Floor
+    uniqueID: 700237507
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Characters
+    uniqueID: 625399877
+    locked: 0

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5417138639639174932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5417138639639174934}
+  - component: {fileID: 5417138639639174935}
+  m_Layer: 0
+  m_Name: Maze Generation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5417138639639174934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5417138639639174932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8056905, y: 1.4489568, z: -10.13044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5417138639639174935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5417138639639174932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0bad91331aa9d44845e3a2d0c475aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 3
+  height: 3
+  WallHorizontalPerfab: {fileID: 5403156574535864729, guid: 9c3ef9c0e85a3ab4fbadbe598465acee, type: 3}
+  WallVerticalPerfab: {fileID: 1003939700080363382, guid: 98e2f9a7269c6434580391b4a70dc8b4, type: 3}
+  FloorPrefab: {fileID: 6934060991799060399, guid: cfc162dfc512e7d44a2726dc7d3011e6, type: 3}
+  TrapsPrefab:
+  - {fileID: 1539044516576070985, guid: 5651153013ae2a84a8b3812ef73a289b, type: 3}
+  - {fileID: 5013985389663887667, guid: 0e721ef5599b6c04fa1f4d7b16d518a3, type: 3}
+  - {fileID: 6199560820608856568, guid: 54ddc1a00989bb44ebc10162165ca0c1, type: 3}
+  - {fileID: 6342941064935582311, guid: 2997046d0131a8148abbb0717405b71b, type: 3}
+  EnemiesPrefab:
+  - {fileID: 697798928600808717, guid: 69272d9ad0f617843ba63243aa7b73a8, type: 3}
+  TrapsMultiplier: 1
+  EnemiesMultiplier: 0.5
+  TrapsCount: 0
+  EnemiesCount: 0
+  Player: {fileID: 0}
+  End: {fileID: 0}
+  Path: {fileID: 0}
+  CellSize: 1.85
+  Parent: {fileID: 0}
